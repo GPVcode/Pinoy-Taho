@@ -1,3 +1,4 @@
+
 .collapsible-content {
   position: relative;
   z-index: 0;
@@ -49,6 +50,12 @@
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   max-width: 73.4rem;
+}
+
+h2.collapsible-content__heading.inline-richtext.h1 {
+  color: #ca6545;
+  transform: scaleY(1.2);
+  font-weight: 550;
 }
 
 .collapsible-content__header {

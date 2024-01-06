@@ -1,7 +1,8 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Pinoy_Taho_Logo.png",
-    "logo_width": 90,
+    "logo": "shopify:\/\/shop_images\/Pinoy_Taho_Logo_Wite.png",
+    "logo_width": 120,
+    "favicon": "shopify:\/\/shop_images\/Pinoy_Taho_Logo_Wite.png",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -97,11 +98,12 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "brand_headline": "",
-    "brand_description": "<p><\/p>",
-    "brand_image_width": 100,
-    "social_facebook_link": "",
-    "social_instagram_link": "",
+    "brand_headline": "Let's celebrate the taste of home.",
+    "brand_description": "<p>714-609-0957<\/p><p>Follow us on our social media channels.<\/p>",
+    "brand_image": "shopify:\/\/shop_images\/Pinoy_Taho_Logo_Wite.png",
+    "brand_image_width": 135,
+    "social_facebook_link": "https:\/\/www.facebook.com\/pinoy.taho",
+    "social_instagram_link": "https:\/\/www.instagram.com\/pinoytaho\/?hl=en",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -153,7 +155,7 @@
           "background_gradient": "",
           "text": "#121212",
           "button": "#121212",
-          "button_label": "#fff",
+          "button_label": "#ffffff",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
         }

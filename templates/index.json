@@ -1,41 +1,12 @@
 {
   "sections": {
-    "featured_collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
-      }
-    },
     "c2627ee6-573f-4dd5-90af-2e6fd70b0ead": {
       "type": "image-with-text",
       "blocks": {
         "template--15304641937456__c2627ee6-573f-4dd5-90af-2e6fd70b0ead-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Authentic Filipino Taho.",
+            "heading": "<strong>Classic Filipino Taho Available Now.<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -61,19 +32,19 @@
         "template--15304641937456__c2627ee6-573f-4dd5-90af-2e6fd70b0ead-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Pinoy_Taho_Banner_3.png",
+        "image": "shopify:\/\/shop_images\/Mobile_Pinoy_Taho_bd4df7d3-ff10-47cf-8c29-6af822b67bef.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
+        "layout": "image_first",
+        "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "background-1",
         "color_scheme": "background-1",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 32,
-        "padding_bottom": 8
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 32
       }
     },
     "15523e2b-03df-41b8-94da-5aaac01e5783": {
@@ -85,7 +56,7 @@
             "image": "shopify:\/\/shop_images\/Pinoy_Taho_Product_photos.png",
             "caption": "",
             "heading": "How to Order a Pinoy Taho Family Pack",
-            "text": "<p>Pick up must be arranged with at least <strong>one week notice<\/strong>.<br\/><\/p><p>Meet up on weekends at designated locations.<\/p><p><em>Please call or text below to place your order:<\/em><\/p><h2><strong>(714) 609-0957<\/strong><\/h2>",
+            "text": "<p><em>Please call or text below to place your order: <br\/><\/em><strong>(<\/strong>{{ shop.brand.slogan }}<strong>714) 609-0957<\/strong><\/p><p><strong>Note:<\/strong><br\/>Pick up must be arranged with at least one week notice. Meet ups on weekends at designated locations.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -115,12 +86,12 @@
         "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
+        "image_layout": "alternate-right",
         "section_color_scheme": "",
         "row_color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 8,
-        "padding_bottom": 8
+        "padding_top": 32,
+        "padding_bottom": 0
       }
     },
     "e2774e9e-cda7-4d94-a0c0-d2a82c01cb6f": {
@@ -181,7 +152,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Frequently Asked Questions",
+        "heading": "FAQ",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "section",
@@ -199,7 +170,7 @@
       "settings": {
         "heading": "Blog posts",
         "heading_size": "h1",
-        "blog": "",
+        "blog": "taho",
         "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "background-1",
@@ -207,8 +178,8 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 32
       }
     },
     "a65f665b-7216-43e3-aa56-e81421eab210": {
@@ -217,14 +188,14 @@
         "template--15304641937456__a65f665b-7216-43e3-aa56-e81421eab210-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "Stay Connected: Join Our Community!",
             "heading_size": "h1"
           }
         },
         "template--15304641937456__a65f665b-7216-43e3-aa56-e81421eab210-paragraph-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>Subscribe to our Pinoy Taho community! Stay updated with our latest blogs, special offers, and events. Embrace the authentic taste of Filipino tradition right in your inbox.<\/p>"
           }
         },
         "template--15304641937456__a65f665b-7216-43e3-aa56-e81421eab210-email_form-1": {
@@ -241,13 +212,12 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 32,
+        "padding_bottom": 64
       }
     }
   },
   "order": [
-    "featured_collection",
     "c2627ee6-573f-4dd5-90af-2e6fd70b0ead",
     "15523e2b-03df-41b8-94da-5aaac01e5783",
     "e2774e9e-cda7-4d94-a0c0-d2a82c01cb6f",

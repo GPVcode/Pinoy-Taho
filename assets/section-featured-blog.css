@@ -10,6 +10,9 @@
 
 .blog__title {
   margin: 0;
+  color: #ca6545;
+  transform: scaleY(1.2);
+  font-weight: 550;
 }
 
 .blog__posts.articles-wrapper {
