@@ -56,7 +56,7 @@
             "image": "shopify:\/\/shop_images\/Pinoy_Taho_Product_photos.png",
             "caption": "",
             "heading": "How to Order a Pinoy Taho Family Pack",
-            "text": "<p><em>Please call or text below to place your order: <br\/><\/em><strong>(<\/strong>{{ shop.brand.slogan }}<strong>714) 609-0957<\/strong><\/p><p><strong>Note:<\/strong><br\/>Pick up must be arranged with at least one week notice. Meet ups on weekends at designated locations.<\/p>",
+            "text": "<p><em>Call or text the number below:<br\/><\/em><strong>714-609-0957<\/strong><\/p><p><strong>Note:<\/strong><br\/>Pick up must be arranged with at least one week notice. Meet ups on weekends at designated locations.<\/p>",
             "button_label": "",
             "button_link": ""
           }

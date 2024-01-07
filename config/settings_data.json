@@ -146,7 +146,7 @@
           "button": "#ca6545",
           "button_label": "#ffffff",
           "secondary_button_label": "#ca6545",
-          "shadow": "#121212"
+          "shadow": "#000000"
         }
       },
       "background-2": {
