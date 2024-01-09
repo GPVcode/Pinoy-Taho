@@ -8,10 +8,8 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-  .main-blog.page-width h1 {
-    color: #ca6545;
-    transform: scaleY(1.2);
-    font-weight: 550;
+  .main-blog.page-width.section-template--21792920305971__main-padding {
+    padding: 4rem 2rem 6rem 2rem;
   }
 
   @media screen and (min-width: 750px) {
@@ -19,12 +17,16 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+    .main-blog.page-width.section-template--21792920305971__main-padding {
+      padding: 4rem 4rem 6rem 4rem;
+    }
   }
 {%- endstyle -%}
 
 {%- paginate blog.articles by 6 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
     <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+    
       {{ blog.title | escape }}
     </h1>
 

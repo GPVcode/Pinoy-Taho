@@ -17,13 +17,70 @@
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  .collection {
+    border-bottom: solid gray 1px;
+    padding: 4rem 2rem 6rem 2rem;
+  }
+
+  .collection__title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .collection__title.title-wrapper {
+    padding: 25px 0 15px 0;
+    margin: unset;
+  }
+
+  h2.title.inline-richtext.h2.scroll-trigger.animate--slide-in {
+    margin: 0;
+  }
+
+  /* .card-wrapper.product-card-wrapper.underline-links-hover {
+    border: solid gray 1px;
+    margin: 0;
+    
+} */
+
+  .section#shopify-section-template--21782659072307__featured_collection{
+    margin: 0;
+    padding: 0;
+  }
+  section#shopify-section-template--21792920535347__featured_collection {
+    margin: 0;
+  }
+  
+  slider-component.slider-mobile-gutter.page-width-desktop.scroll-trigger.animate--slide-in {
+    padding: 0;
+  }
+  .collection{
+    border-bottom: solid gray 1px;
+  }
+
+  .card__inner.color-background-1.gradient.ratio {
+    border-bottom: solid gray 1px;
+  }
+
+  ul#Slider-template--21792920535347__featured_collection,
+  li#Slide-template--21782659072307__featured_collection-1,
+  li#Slide-template--21792920535347__featured_collection-1 {
+    margin: 0;
   }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+
+    .collection {
+      border-bottom: solid gray 1px;
+      padding: 4rem 4rem 6rem 4rem;
     }
   }
 {%- endstyle -%}
@@ -48,13 +105,15 @@
   endif
 -%}
 
-<div class="color-{{ section.settings.color_scheme }} isolate gradient">
-  <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
+<div class="color-{{ section.settings.color_scheme }} isolate gradient collection-wrapper">
+  <div class="collection ">
     <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
       {%- if section.settings.title != blank -%}
         <h2 class="title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           {{ section.settings.title }}
+
         </h2>
+        
       {%- endif -%}
       {%- if section.settings.description != blank
         or section.settings.show_description
