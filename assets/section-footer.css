@@ -3,7 +3,7 @@
 }
 
 .footer:not(.color-background-1) {
-  border-top: solid gray 1px;
+  border-top: solid lightgray 1px;
 }
 
 .footer__content-top {
@@ -413,6 +413,7 @@
 }
 
 .footer-block__brand-info {
+  padding-top: 2rem;
   text-align: left;
 }
 

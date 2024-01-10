@@ -7,9 +7,8 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "",
+            "text": "All Orders Must Be Placed 1-Week in Advance.",
             "link": ""
           }
         }
@@ -18,7 +17,7 @@
         "announcement-bar-0"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
@@ -30,12 +29,12 @@
     "header": {
       "type": "header",
       "settings": {
-        "logo_position": "middle-center",
+        "logo_position": "top-center",
         "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
-        "show_line_separator": false,
-        "color_scheme": "background-1",
+        "show_line_separator": true,
+        "color_scheme": "background-2",
         "menu_color_scheme": "background-1",
         "enable_country_selector": true,
         "enable_language_selector": true,

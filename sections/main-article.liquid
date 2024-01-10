@@ -1,7 +1,6 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="article-wrapper">
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when '@app' -%}
@@ -38,7 +37,6 @@
                 width="{{ article.image.width }}"
                 height="{{ article.image.height }}"
                 alt="{{ article.image.alt | escape }}"
-                class="article-img"
               >
             </div>
           </div>
@@ -74,14 +72,6 @@
           {{ block.shopify_attributes }}
         >
           {{ article.content }}
-
-          <a
-            href="{{ collections.all.url }}"
-              class="blog-buy-btn button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
-              {{ block.shopify_attributes }}
-          >
-          Shop Now
-         </a>
         </div>
 
       {%- when 'share' -%}
@@ -95,13 +85,12 @@
     {%- endcase -%}
   {%- endfor -%}
 
- 
-    <div class="article-template__back element-margin-top center{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-      <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
-        <span class="icon-wrap">{% render 'icon-arrow' %}</span>
-        {{ 'blogs.article.back_to_blog' | t: title: blog.title }}
-      </a>
-    </div>
+  <div class="article-template__back element-margin-top center{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
+      <span class="icon-wrap">{% render 'icon-arrow' %}</span>
+      {{ 'blogs.article.back_to_blog' | t: title: blog.title }}
+    </a>
+  </div>
   {%- if blog.comments_enabled? -%}
     <div class="article-template__comment-wrapper background-secondary">
       <div
@@ -284,10 +273,8 @@
           <input type="submit" class="button" value="{{ 'blogs.article.post' | t }}">
         {% endform %}
       </div>
-      
     </div>
   {%- endif -%}
-  </div>
 </article>
 
 <script type="application/ld+json">

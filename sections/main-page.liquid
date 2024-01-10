@@ -1,28 +1,9 @@
 {{ 'section-main-page.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  /* ABOUT US PADDING SOLUTION */
-  section#shopify-section-template--21792920699187__main {
-      padding: 4rem 3.5rem 4rem 3.5rem;
-      display: flex;
-      justify-content: center;
-  }
-  div .section-{{ section.id }}-padding {
+  .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  .page-width.section-template--21792920699187__e026610b-15ec-4907-8362-8785bf2d6acb-padding.isolate.scroll-trigger.animate--slide-in{
-    padding: 0px 3.5rem 6rem 3.5rem;
-  }
-
-
-  .main-page-title.about-us-title {
-    width: 89%;
-  }
-
-  .about-us-content {
-    width: 89%;
   }
 
   @media screen and (min-width: 750px) {
@@ -30,21 +11,14 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
-
-    section#shopify-section-template--21792920699187__main{
-      width: 79%;
-    }
-
-    .page-width.section-template--21792920699187__e026610b-15ec-4907-8362-8785bf2d6acb-padding.isolate.scroll-trigger.animate--slide-in{
-      padding: 0px 4rem 6rem 4rem;
-    }
   }
 {%- endstyle -%}
-<div class="page-width section-{{ section.id }}-padding">
-  <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %} about-us-title">
+
+<div class="page-width page-width--narrow section-{{ section.id }}-padding">
+  <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {{ page.title | escape }}
   </h1>
-  <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} about-us-content">
+  <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     {{ page.content }}
   </div>
 </div>
