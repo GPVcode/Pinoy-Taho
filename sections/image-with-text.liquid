@@ -13,6 +13,10 @@
     font-weight: 550;
   }
 
+  .image-with-text__grid.grid.grid--gapless.grid--1-col.grid--2-col-tablet {
+    justify-content: center;
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -52,7 +56,6 @@
               style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
             {% endif %}
           >
-        
             {%- if section.settings.image != blank -%}
               {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
                 {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
@@ -137,6 +140,12 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Image",
+      "info": "Upload an image for mobile devices"
     },
     {
       "type": "select",

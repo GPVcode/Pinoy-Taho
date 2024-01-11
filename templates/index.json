@@ -13,7 +13,7 @@
         "template--15304641937456__c2627ee6-573f-4dd5-90af-2e6fd70b0ead-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pinoy Taho delivers an authentic taste of home, connecting customers with cherished Filipino traditions in every bite.<\/p>",
+            "text": "<p>Fil's Tasty Taho delivers an authentic taste of home, connecting customers with cherished Filipino traditions in every bite.<\/p>",
             "text_style": "subtitle"
           }
         },
@@ -32,7 +32,7 @@
         "template--15304641937456__c2627ee6-573f-4dd5-90af-2e6fd70b0ead-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Mobile_Pinoy_Taho_bd4df7d3-ff10-47cf-8c29-6af822b67bef.png",
+        "image": "shopify:\/\/shop_images\/Filipino_Taho_Banner_Scribble.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -43,7 +43,7 @@
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
+        "padding_top": 32,
         "padding_bottom": 32
       }
     },
@@ -53,10 +53,10 @@
         "4fd6e27e-fac3-45c6-b6a7-5a850b1d79c2": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Filipino_Dessert_Taho_1.png",
+            "image": "shopify:\/\/shop_images\/Taho_Image_ingredients_2.png",
             "caption": "",
-            "heading": "How to Order a Pinoy Taho Family Pack",
-            "text": "<p><em>Call or text the number below:<br\/><\/em><strong>714-609-0957<\/strong><\/p><p><strong>Note:<\/strong><br\/>Pick up must be arranged with at least one week notice. Meet ups on weekends at designated locations.<\/p>",
+            "heading": "How to Order a Fil's Tasty Taho Family Pack",
+            "text": "<p><em>Call or text the number below:<br\/><\/em><strong>555-555-5555<\/strong><\/p><p><strong>Note:<\/strong><br\/>Our taho is homeade using a delicate process so pick up must be arranged with at least one week notice. Meet ups are currently on weekends at designated locations.<\/p>",
             "button_label": "",
             "button_link": ""
           }
